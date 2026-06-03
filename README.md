@@ -1,4 +1,4 @@
-# SPA Simulacro — JavaScript Single Page Application
+# SPA — JavaScript Single Page Application
 
 A vanilla JavaScript SPA with role-based access control, built without any frontend frameworks.
 
