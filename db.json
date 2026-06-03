@@ -15,20 +15,30 @@
       "name": "Kika"
     }
   ],
-  "projects": [
+    "projects": [
     {
-      "id": "e79f",
-      "name": "COsasf",
-      "description": "asda f",
-      "status": "Finalizado",
-      "assignedTo": "29999999999999999999999999999999999999999"
+            "id": "101",
+            "name": "E-Commerce App",
+            "description": "Desarrollo de la tienda virtual interna.",
+            "status": "Activo",
+            "createdAt": "2026-05-15",
+            "assignedTo": "2" 
     },
     {
-      "id": "2b49",
-      "name": "COsas2",
-      "description": "asda",
-      "status": "Activo",
-      "assignedTo": "3g"
+            "id": "102",
+            "name": "Migración de Servidores",
+            "description": "Mover base de datos a la nube.",
+            "status": "Pendiente",
+            "createdAt": "2026-05-20",
+            "assignedTo": "1"
+    },
+    {
+            "id": "103",
+            "name": "Refactorización UI",
+            "description": "Mejorar la accesibilidad del sitio web principal.",
+            "status": "Finalizado",
+            "createdAt": "2026-05-01",
+            "assignedTo": "2"
     }
   ]
 }
