@@ -1,3 +1,5 @@
+// Archivo que permite renderizar la vista del dashboard
+
 import { getSession } from "../auth.js";
 import { getProjects } from "../api.js";
 import { logout } from "../auth.js";
@@ -65,6 +67,7 @@ if (session.role === "manager") {
     `
 }
 
+// Aquí mostramos el dashboard que corresponde con la condicional mostrada anteriormente.
 appContainer.innerHTML = html
 
 document.querySelector("#btn-logout").addEventListener("click", () => {

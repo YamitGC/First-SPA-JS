@@ -1,4 +1,4 @@
-// archivo que maneja el CRUD de proyectos con permisos por rol
+// Archivo que renderiza la sección 'projects' y maneja el CRUD de proyectos con permisos por rol
 
 import { logout } from "../auth.js";
 import { getSession } from "../auth.js";
@@ -33,7 +33,7 @@ async function renderProjects() {
             </div>
         </div>
     </div>
-`).join("")
+`).join("") // Une todos los strings del array que generó .map() en uno solo sin separadores.
 
 appContainer.innerHTML = `
     <nav class="navbar">

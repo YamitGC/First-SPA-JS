@@ -1,3 +1,5 @@
+// Archivo que permite renderizar la vista del login
+
 import { login } from "../auth.js";
 import { router } from "../router.js";
 
