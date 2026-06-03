@@ -2,15 +2,15 @@ import { getUsers } from "./api.js";
 
 async function login(email, password) {
     const users  = await getUsers()
-    const resultado = users.find(item => item.email === email && item.password === password)
+    const resultados = users.find(resultado => resultado.email === email && resultado.password === password)
 
-    if (!resultado) {
+    if (!resultados) {
         return null
     }
     else {
         // como encontró el usuario acá lo guardamos en  localStorage
-        localStorage.setItem("session", JSON.stringify(resultado))
-        return resultado
+        localStorage.setItem("session", JSON.stringify(resultados))
+        return resultados
     }
 }
 
